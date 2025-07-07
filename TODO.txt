@@ -1,0 +1,51 @@
+- Spawn Players in map
+- Spawn Players in lobby after round
+
+- Spawn crowns in map
+- Crowns picked up when touched
+
+- Players lose hp when round starts
+	and they are not holding a crown
+- Players stop losing hp when holding
+	a crown
+- Track when a Player dies during game
+
+
+
+
+
+- Getting hit with a weapon causes
+	Players to drop crown
+
+
+
+- Map Voting
+- Cycle through round states
+
+
+
+
+- Setup slap weapon
+-- Turn off can-collide DONE
+-- Setup hitbox detection method DONE
+-- Launch Players when they get hit DONE
+-- Add a cooldown, maybe show in UI NEED TO DO UI
+-- Add sound effect when slapped
+-- Ragdoll Players that get slapped DONE
+-- Add swoosh vfx to show range
+
+
+
+
+*NEW TODO:*
+
+- Teleport players to the lobby after the round ends
+- Show game state and timer so players know what's happening
+- Add in damage mechanic so players have a sense of urgency
+- Add a double jump mechanic
+- Test different walk speeds
+- Slow down the player that is holding the crown
+- Add slashing vfx to hand
+
+
+- Cleaning up map and other States

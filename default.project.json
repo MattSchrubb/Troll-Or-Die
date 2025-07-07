@@ -1,0 +1,48 @@
+{
+  "name": "Troll or Die",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/shared/ReplicatedStorage",
+      "Packages": {
+        "$path": "Packages/"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/shared/ReplicatedFirst"
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/client/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/client/StarterCharacterScripts"
+      }
+    },
+
+    "StarterPack": {
+      "$ignoreUnknownInstances": true,
+      "Smack": {
+        "$ignoreUnknownInstances": true,
+        "$className": "Tool",
+        "$path": "src/client/StarterPack/Smack"
+      }
+    },
+
+    "Workspace": {
+      "$ignoreUnknownInstances": true
+    }
+  }
+}
